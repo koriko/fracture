@@ -47,11 +47,18 @@
 
 
 
-<div class="full-width  transition nopadding header shadowbox-white " style="height:25px;border:0px;">
+
+
+
+
+
+
+
+<div class="full-width  transition nopadding footer  " style="height:15px;border:0px;">
 
  </div>
 
-   <div class="full-width  transition nopadding border-top-background shadowbox-white " style="margin-top:0px;">
+   <div class="full-width  transition nopadding   " style="margin-top:0px;">
 
 <div class="row  transition nopadding ">
  
@@ -90,37 +97,18 @@
 
       
      
-<div class="row  transition nopadding header">
+<div class="row  transition nopadding ">
    
   <div class="twelve columns ">
    
+     
+        <div id="featured" class="featured"style="height:0px;overflow:hidden;">          
+         
+         <img style=""src="images/slidetest.png" alt="slide image">
+          <img style=""src="images/slidetest2.png" alt="slide image">
+
+        </div>
       </div>
-
-
-
-
-
-
-
-
-
-         <div class=" twelve columns  nopadding" > </div>
-    <div class="twelve columns text-center " style="margin-top:0px;">
-
-      <div class="six columns text-center nopadding" style="margin-left:-5%">
-<img style=""src="images/2290.png">
- </div>
-<div class="six columns text-center nopadding  ">
-        <h6 style="color:#d1d1d1;font-size:36px;">Wij brengen jouw zaak online</h6>
-        <div class="twelve columns nopadding borderlong"></div>
-        <p style="color:#d1d1d1">De Belgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vBelgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vertaalt.Haar fans zijnsensuele ondertoon. ti perfecte pasvormen en kwalitatieve stohe modeopleiding v22 Octobre”.</p>
-       
-      </div>
-
-       
-<div class="twelve columns nopadding borderlong"></div>
-
- </div> <div class="twelve columns ">
    
       </div>
 </div>  </div>

@@ -32,18 +32,15 @@
 <link href='http://fonts.googleapis.com/css?family=BenchNine:400,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Port+Lligat+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
 </head>
 <body>
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "113ae654-c236-4992-9801-43f7a1a952f3"});</script>
-
-
-
-
-
-
-
 
 
 
@@ -102,22 +99,68 @@
   <div class="twelve columns ">
    
      
-        <div id="featured" class="featured"style="height:0px;overflow:hidden;">          
-         
-         <img style=""src="images/slidetest.png" alt="slide image">
-          <img style=""src="images/slidetest2.png" alt="slide image">
+       <div id="slideshow">
 
-        </div>
+   <div class="innerslide">
+    <div class="twelve columns text-center header" style="margin-top:0px;">
+      <div class="six columns text-center nopadding" style="margin-left:-5%">
+        <img style=""src="images/2290.png">
       </div>
-   
+      <div class="six columns text-center nopadding  ">
+        <h6 style="color:#d1d1d1;font-size:36px;">ONE</h6>
+        <div class="twelve columns nopadding borderlong"></div>
+        <p style="color:#d1d1d1">De Belgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vBelgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vertaalt.Haar fans zijnsensuele ondertoon. ti perfecte pasvormen en kwalitatieve stohe modeopleiding v22 Octobre”.</p>
       </div>
-</div>  </div>
+      <div class="twelve columns nopadding borderlong"></div>
+    </div>
+       <div class="nav-left"></div>
+  <div class="nav-right"></div>
+  <div class="bullet1 shadowbox-outer"></div> <div class="bullet2 "></div> <div class="bullet3 "></div>
+  </div>
 
 
 
- </div>
+   <div class="innerslide">
+    <div class="twelve columns text-center " style="margin-top:0px;background: url(images/bgg.png) ;">
+      <div class="six columns text-center nopadding" style="margin-left:-5%">
+        <img style=""src="images/2290.png">
+      </div>
+      <div class="six columns text-center nopadding  ">
+        <h6 style="color:#d1d1d1;font-size:36px;">TWO</h6>
+        <div class="twelve columns nopadding borderlong"></div>
+        <p style="color:#d1d1d1">De Belgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vBelgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vertaalt.Haar fans zijnsensuele ondertoon. ti perfecte pasvormen en kwalitatieve stohe modeopleiding v22 Octobre”.</p>
+      </div>
+      <div class="twelve columns nopadding borderlong"></div>
+    </div>
+       <div class="nav-left"></div>
+  <div class="nav-right"></div>
+    <div class="bullet1 "></div> <div class="bullet2 shadowbox-outer "></div> <div class="bullet3 "></div>
+  </div>
 
-    </div> </div>
+
+
+
+<div class="innerslide">
+    <div class="twelve columns text-center footer" style="margin-top:0px;">
+      <div class="six columns text-center nopadding" style="margin-left:-5%">
+        <img style=""src="images/2290.png">
+      </div>
+      <div class="six columns text-center nopadding  ">
+        <h6 style="color:#d1d1d1;font-size:36px;">THREE</h6>
+        <div class="twelve columns nopadding borderlong"></div>
+        <p style="color:#d1d1d1">De Belgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vBelgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vertaalt.Haar fans zijnsensuele ondertoon. ti perfecte pasvormen en kwalitatieve stohe modeopleiding v22 Octobre”.</p>
+      </div>
+      <div class="twelve columns nopadding borderlong"></div>
+    </div>
+       <div class="nav-left"></div>
+  <div class="nav-right"></div>
+  <div class="bullet1 "></div> <div class="bullet2 "></div> <div class="bullet3 shadowbox-outer"></div>
+</div>
+ 
+
+</div>
+
+
 
 
 
@@ -228,6 +271,7 @@
 
 <script src="javascripts/jquery.placeholder.js"></script>
 <script src="javascripts/modernizr-min.js"></script>
+
 <script>
 if (!Modernizr.input.placeholder){
  $('input[placeholder], textarea[placeholder]').placeholder();
@@ -250,7 +294,6 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 });
 });
 </script>
-
 
 
 <script>
@@ -503,5 +546,78 @@ $("#chris").hover(function () {
     $('#chrisshow').toggleClass('testings');
 });
 </script>
+<script>
+$("#slideshow > div:gt(0)").hide();
 
+        // fade out current slide (first), fade in next slide and move first slide to end
+        var nextSlide = function() { 
+            $("#slideshow > div:first")
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo("#slideshow");
+        }
+
+        var nextSlideTimer = setInterval(nextSlide,  9000);
+
+        // fade out current slide (first) and move last slide to top and fade in
+        $(".nav-left").click(function() {
+            clearInterval(nextSlideTimer);
+
+            $("#slideshow > div:first")
+            .fadeOut(1000);
+            $("#slideshow > div:last")
+            .fadeIn(1000)
+            .prependTo("#slideshow");
+
+            nextSlideTimer = setInterval(nextSlide, 9000)
+            setTimeout(nextSlideTimer, 9000)
+        });
+
+        $(".nav-right").click(function() {
+            clearInterval(nextSlideTimer);
+
+            $("#slideshow > div:first")
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo("#slideshow");
+
+            nextSlideTimer = setInterval(nextSlide, 9000)
+            setTimeout(nextSlideTimer, 9000)
+        });
+
+        $("#slideshow").hover(function() {
+            $("#nav-left").fadeToggle("slow", "linear");
+            $("#nav-right").fadeToggle("slow", "linear");
+        });
+      </script><script>
+
+        $(function() {
+
+$(“#slideshow > div:gt(0)”).hide();
+
+startInterval();
+
+$(“#slideshow > div”).mouseover(function() { stopInterval(); });
+$(“#slideshow > div”).mouseout(function() { startInterval(); });
+
+});
+
+function stopInterval() {
+clearInterval(intervalId);
+}
+
+function startInterval() {
+intervalId = setInterval(function() {
+$(‘#slideshow > div:first’)
+.fadeOut(1000)
+.next()
+.fadeIn(1000)
+.end()
+.appendTo(‘#slideshow’);
+}, 3000);
+}</script>
 </html>
