@@ -87,10 +87,42 @@
 </div></div></div></div>
 
 
-   <div class="full-width  transition nopadding  " style="opacity:0.9;margin-top:0px;">
+   <div class="full-width  transition nopadding  shadowbox-white" style="padding-top:0px;border-top:1px dashed #d1d1d1;border-bottom:1px dashed #d1d1d1">
 
       
      
+
+     <div class="row  transition  " style="">
+
+
+    <div class="twelve columns nopadding ">
+       
+      <div class="four columns text-left box  textbox">
+        <h5>Header titel here</h5>
+        <p>This is a random text that would reprthat you would love to read.is is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you would love to read.</p>
+      <div class="five columns readmore shadowbox-white border" style="float:right">Lees meer</div>
+      </div>
+       <div class="four columns text-left box  textbox">
+        <h5>Header titel here</h5>
+        <p>This is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you wouldhis is a random text that would represent something interesting that you wouo read.</p>
+        <div class="five columns readmore shadowbox-white border" style="float:right">Lees meer</div>
+      </div>
+      <div class="four columns text-left box  textbox">
+        <h5>Header titel here</h5>
+        <p>This is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you wouldhis is a random text that would represent something interesting that you wouo read.</p>
+        <div class="five columns readmore shadowbox-white border" style="float:right">Lees meer</div>
+      </div>
+
+
+
+
+
+      
+    </div>
+    </div>
+
+
+
 <div class="row  transition nopadding fade-top ">
 
   <div class="nine columns text-left ">
@@ -198,38 +230,6 @@
      <div class="row  transition  fade-top" style="">
 
 
-    <div class="twelve columns nopadding ">
-       
-      <div class="four columns text-left box  textbox">
-        <h5>Header titel here</h5>
-        <p>This is a random text that would reprthat you would love to read.is is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you would love to read.</p>
-      <div class="five columns readmore shadowbox-white border" style="float:right">Lees meer</div>
-      </div>
-       <div class="four columns text-left box  textbox">
-        <h5>Header titel here</h5>
-        <p>This is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you wouldhis is a random text that would represent something interesting that you wouo read.</p>
-        <div class="five columns readmore shadowbox-white border" style="float:right">Lees meer</div>
-      </div>
-      <div class="four columns text-left box  textbox">
-        <h5>Header titel here</h5>
-        <p>This is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you wouldhis is a random text that would represent something interesting that you wouo read.</p>
-        <div class="five columns readmore shadowbox-white border" style="float:right">Lees meer</div>
-      </div>
-
-
-
-
-
-      
-    </div>
-    </div>
-    </div>
-
-
-
-     <div class="row  transition  fade-top" style="">
-
-
     <div class="twelve columns ">
       <div class="four columns text-left " style="margin-top:60px;">
         <img src="images/2290.png">
@@ -253,7 +253,7 @@
 </div>
 
 
-<div class="full-width  transition shadowbox-white border-bottom-background " style="height:60px;">  </div>
+
 
 <div class="full-width footer shadowbox-white">
   <div class="row ">
