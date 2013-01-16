@@ -32,6 +32,10 @@
 <link href='http://fonts.googleapis.com/css?family=BenchNine:400,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Port+Lligat+Slab' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
 </head>
 <body>
 <script type="text/javascript">var switchTo5x=true;</script>
@@ -48,16 +52,6 @@
 
 
 
-
-
-
-
-
-
-<div class="full-width  transition nopadding footer  " style="height:15px;border:0px;">
-
- </div>
-
    <div class="full-width  transition nopadding   " style="margin-top:0px;">
 
 <div class="row  transition nopadding ">
@@ -66,7 +60,7 @@
 
 <div class="twelve columns ">
   
-    <div class="three columns text-left nopadding logo" style="margin-top:-15px;">
+    <div class="three columns text-left nopadding " style="margin-top:-15px;">
       <h2 style="margin-bottom:0px;">Fracture designs</h2>
 
       <h4 >Web development op Maat</h4>
@@ -93,43 +87,118 @@
 </div></div></div></div>
 
 
-   <div class="full-width  transition nopadding  shadowbox-white " style="opacity:0.9;margin-top:0px;">
+   <div class="full-width  transition nopadding  " style="opacity:0.9;margin-top:0px;">
 
       
      
-<div class="row  transition nopadding ">
-   
-  <div class="twelve columns ">
-   
+<div class="row  transition nopadding fade-top ">
+
+  <div class="nine columns text-left ">
+   <h5 style="">Current Projects</h5>
      
-        <div id="featured" class="featured"style="height:0px;overflow:hidden;">          
-         
-         <img style=""src="images/slidetest.png" alt="slide image">
-          <img style=""src="images/slidetest2.png" alt="slide image">
+       <div id="slideshow">
 
-        </div>
+   <div class="innerslide">
+    <div class="twelve columns text-center header" style="padding-left:45px;padding-right:45px;;height:400px;margin-top:0px;">
+      <div class="six columns text-center " style="margin-left:0">
+        <img src="images/seventy4.jpg"style="border-radius:5px;" class="shadowbox-outer">
+         <a href="file:///C:/Users/korik/Documents/GitHub/realdeal/index.html" class="borderlong twelve columns readmore shadowbox-white border">Bezoek deze website</a>
       </div>
-   
+      <div class="six columns text-center   "style="">
+        <h6 style="color:#d1d1d1;font-size:36px;">Fashion Store Seventy4</h6>
+        <div class="twelve columns nopadding borderlong"></div>
+        <p style="color:#d1d1d1;">De Belgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vBelgische modeontwerpster Chris Janssens..</p>
       </div>
-</div>  </div>
+     
+    </div>
+       <div class="nav-left"></div>
+  <div class="nav-right"></div>
+  <div class="bullet1 shadowbox-outer"></div> <div class="bullet2 "></div> <div class="bullet3 "></div>
+  </div>
 
 
+
+   <div class="innerslide">
+    <div class="twelve columns text-center " style=";height:400px;margin-top:0px;background: url(images/blue.png) ;">
+      <div class="six columns text-center nopadding" style="margin-left:-5%">
+        <img style=""src="images/2290.png">
+      </div>
+      <div class="six columns text-center nopadding  ">
+        <h6 style="color:#d1d1d1;font-size:36px;">HEADER TWO</h6>
+        <div class="twelve columns nopadding borderlong"></div>
+        <p style="color:#d1d1d1">De Belgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vBelgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vertaalt.Haar fans zijnsensuele ondertoon. ti perfecte pasvormen en kwalitatieve stohe modeopleiding v22 Octobre”.</p>
+      </div>
+      <div class="twelve columns nopadding borderlong"></div>
+    </div>
+       <div class="nav-left"></div>
+  <div class="nav-right"></div>
+    <div class="bullet1 "></div> <div class="bullet2 shadowbox-outer "></div> <div class="bullet3 "></div>
+  </div>
+
+
+
+
+<div class="innerslide">
+    <div class="twelve columns text-center footer" style="margin-top:0px;height:400px;">
+      <div class="six columns text-center nopadding" style="margin-left:-5%">
+        <img style=""src="images/2290.png">
+
+      </div>
+      <div class="six columns text-left nopadding  ">
+        <h6 style="color:#d1d1d1;font-size:36px;">HEADER THREE</h6>
+        <div class="twelve columns nopadding borderlong"></div>
+        <p style="color:#d1d1d1">De Belgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vBelgische modeontwerpster Chris Janssens iet leiden door vltie die ze op een heel eigentijdse en kleurige manier vertaalt.Haar fans zijnsensuele ondertoon. ti perfecte pasvormen en kwalitatieve stohe modeopleiding v22 Octobre”.</p><div class="six columns readmore shadowbox-white border" style="float:left">Bezoek website</div></p>
+      </div>
+      <div class="twelve columns nopadding borderlong"></div>
+    </div>
+       <div class="nav-left"></div>
+  <div class="nav-right"></div>
+  <div class="bullet1 "></div> <div class="bullet2 "></div> <div class="bullet3 shadowbox-outer"></div>
+</div>
+ 
+
+</div>
+
+
+
+    </div>      
+    <div class="three columns  " style="padding-top:55px;">
+<div class="twelve columns pointer shadowz" style="border-radius:5px;margin-top:15px; ">
+     
+       <div class="seven columns nopadding ">
+    <img style=""src="images/2290.png"> </div>
+     <div class="five columns nopadding">
+    <h3 style="">WC3 Websites</h3>
+    </div>
+  </div>
+
+<div class="twelve columns text-left pointer shadowz" style="border-radius:5px;margin-top:15px; ">
+      <div class="eight columns nopadding">
+    <h3 style="">Go Mobile</h3>
+    
+    
+    </div>
+       <div class="three columns nopadding">
+    <img style=""src="images/examplesitemobile.png"> </div>
+  </div>
+
+<div class="twelve columns pointer shadowz" style="border-radius:5px;margin-top:15px; ">
+     
+       <div class="seven columns nopadding ">
+    <img style=""src="images/2290.png"> </div>
+     <div class="five columns nopadding">
+    <h3 style="">WC3 Websites</h3>
+    </div>
+
+
+  </div>  </div>
 
  </div>
 
-    </div> </div>
+     <div class="row  transition  fade-top" style="">
 
 
-
-
-
-
-
-
-     <div class="row  transition  " style="">
-
-
-    <div class="twelve columns nopadding">
+    <div class="twelve columns nopadding ">
        
       <div class="four columns text-left box  textbox">
         <h5>Header titel here</h5>
@@ -153,11 +222,12 @@
 
       
     </div>
+    </div>
+    </div>
 
 
-  <div class="twelve columns nopadding nopadding borderlongwhite">
-  </div>
 
+     <div class="row  transition  fade-top" style="">
 
 
     <div class="twelve columns ">
@@ -228,6 +298,7 @@
 
 <script src="javascripts/jquery.placeholder.js"></script>
 <script src="javascripts/modernizr-min.js"></script>
+
 <script>
 if (!Modernizr.input.placeholder){
  $('input[placeholder], textarea[placeholder]').placeholder();
@@ -250,7 +321,6 @@ $('#contact-form').append("<p class='thanks'>Thanks! Your request has been sent.
 });
 });
 </script>
-
 
 
 <script>
@@ -503,5 +573,78 @@ $("#chris").hover(function () {
     $('#chrisshow').toggleClass('testings');
 });
 </script>
+<script>
+$("#slideshow > div:gt(0)").hide();
 
+        // fade out current slide (first), fade in next slide and move first slide to end
+        var nextSlide = function() { 
+            $("#slideshow > div:first")
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo("#slideshow");
+        }
+
+        var nextSlideTimer = setInterval(nextSlide,  9000);
+
+        // fade out current slide (first) and move last slide to top and fade in
+        $(".nav-left").click(function() {
+            clearInterval(nextSlideTimer);
+
+            $("#slideshow > div:first")
+            .fadeOut(1000);
+            $("#slideshow > div:last")
+            .fadeIn(1000)
+            .prependTo("#slideshow");
+
+            nextSlideTimer = setInterval(nextSlide, 9000)
+            setTimeout(nextSlideTimer, 9000)
+        });
+
+        $(".nav-right").click(function() {
+            clearInterval(nextSlideTimer);
+
+            $("#slideshow > div:first")
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo("#slideshow");
+
+            nextSlideTimer = setInterval(nextSlide, 9000)
+            setTimeout(nextSlideTimer, 9000)
+        });
+
+        $("#slideshow").hover(function() {
+            $("#nav-left").fadeToggle("slow", "linear");
+            $("#nav-right").fadeToggle("slow", "linear");
+        });
+      </script><script>
+
+        $(function() {
+
+$(“#slideshow > div:gt(0)”).hide();
+
+startInterval();
+
+$(“#slideshow > div”).mouseover(function() { stopInterval(); });
+$(“#slideshow > div”).mouseout(function() { startInterval(); });
+
+});
+
+function stopInterval() {
+clearInterval(intervalId);
+}
+
+function startInterval() {
+intervalId = setInterval(function() {
+$(‘#slideshow > div:first’)
+.fadeOut(1000)
+.next()
+.fadeIn(1000)
+.end()
+.appendTo(‘#slideshow’);
+}, 3000);
+}</script>
 </html>
