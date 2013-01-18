@@ -52,7 +52,7 @@
 
 
 
-   <div class="full-width  transition nopadding   " style="margin-top:0px;">
+   <div class="full-width  transition nopadding " style="margin-top:0px;">
 
 <div class="row  transition nopadding ">
  
@@ -87,7 +87,7 @@
 </div></div></div></div>
 
 
-   <div class="full-width  transition nopadding  shadowbox-white" style="padding-top:0px;border-top:1px dashed #d1d1d1;border-bottom:1px dashed #d1d1d1">
+   <div class="full-width  transition nopadding  shadowbox-white " style="padding-top:0px;border-top:1px dashed #d1d1d1;border-bottom:1px dashed #d1d1d1">
 
       
      
@@ -98,20 +98,49 @@
     <div class="twelve columns nopadding ">
        
       <div class="four columns text-left box  textbox">
-        <h5>Header titel here</h5>
+
+        
+
+
+            <div class="nine columns text-left nopadding  ">          
+        <h5>Een nieuwe website</h5>
+        </div>
+        <div class="two columns symbols text-left ">,</div>
+  <div class="twelve columns text-left  nopadding ">
         <p>This is a random text that would reprthat you would love to read.is is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you would love to read.</p>
       <div class="five columns readmore shadowbox-white border" style="float:right">Lees meer</div>
-      </div>
+      </div></div>
+
+
        <div class="four columns text-left box  textbox">
-        <h5>Header titel here</h5>
-        <p>This is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you wouldhis is a random text that would represent something interesting that you wouo read.</p>
-        <div class="five columns readmore shadowbox-white border" style="float:right">Lees meer</div>
-      </div>
-      <div class="four columns text-left box  textbox">
-        <h5>Header titel here</h5>
-        <p>This is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you wouldhis is a random text that would represent something interesting that you wouo read.</p>
-        <div class="five columns readmore shadowbox-white border" style="float:right">Lees meer</div>
-      </div>
+
+    
+
+
+            <div class="nine columns text-left nopadding  ">          
+        <h5>Oude website opfleuren</h5>
+        </div>
+            <div class="two columns symbols text-left ">V</div>
+  <div class="twelve columns text-left  nopadding ">
+        <p>This is a random text that would reprthat you would love to read.is is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you would love to read.</p>
+      <div class="five columns readmore shadowbox-white border" style="float:right">Lees meer</div>
+      </div></div>
+
+
+
+       <div class="four columns text-left box  textbox">
+
+  
+
+
+            <div class="nine columns text-left nopadding  ">          
+        <h5>Doe een mobile test</h5>
+        </div>
+              <div class="two columns symbols text-left ">B</div>
+  <div class="twelve columns text-left  nopadding ">
+        <p>This is a random text that would reprthat you would love to read.is is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you would love to read.</p>
+      <div class="five columns readmore shadowbox-white border" style="float:right">Lees meer</div>
+      </div></div>
 
 
 
@@ -123,10 +152,10 @@
 
 
 
-<div class="row  transition nopadding fade-top ">
+<div class="row  transition nopadding fade-top "style="">
 
-  <div class="nine columns text-left ">
-   <h5 style="">Current Projects</h5>
+  <div class="nine columns text-left " >
+   <h5 style="">lopend project</h5>
      
        <div id="slideshow">
 
@@ -200,13 +229,14 @@
        <div class="seven columns nopadding ">
     <img style=""src="images/2290.png"> </div>
      <div class="five columns nopadding">
-    <h3 style="">WC3 Websites</h3>
+    <h5 style="">WC3 Websites</h5>
     </div>
   </div>
 
 <div class="twelve columns text-left pointer shadowz" style="border-radius:5px;margin-top:15px; ">
       <div class="eight columns nopadding">
-    <h3 style="">Go Mobile</h3>
+    <h5 style="">Go Mobile</h5>
+    <p>Find out how</p>
     
     
     </div>
@@ -219,7 +249,7 @@
        <div class="seven columns nopadding ">
     <img style=""src="images/2290.png"> </div>
      <div class="five columns nopadding">
-    <h3 style="">WC3 Websites</h3>
+    <h5 style="">WC3 Websites</h5>
     </div>
 
 
@@ -227,7 +257,7 @@
 
  </div>
 
-     <div class="row  transition  fade-top" style="">
+     <div class="row  transition  fade-top" style="border-top:1px dashed #d1d1d1;">
 
 
     <div class="twelve columns ">
@@ -235,7 +265,7 @@
         <img src="images/2290.png">
       </div>  
       <div class="four columns text-left box  textbox">
-        <h6>Header titel here</h6>
+       <h5>Header titel here</h5>
         <p>This is a random text that would represent something interesting that you would love to read.This is a random text that would represent something interesting that you wouldhis is a random text that would represent something interesting that you wouo read.</p>
         
       </div>

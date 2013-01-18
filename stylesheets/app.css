@@ -55,7 +55,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 .background-dark {background: url(../images/bgg.png)
 }
-.background-light {background:#e1e1e1}
+.background-light {background:#fff;background: url(../images/bgg.png)}
 .background-white {background:#fff}
 .background-medium {background:#666}
 .background-darker {background:#444}
@@ -140,9 +140,9 @@ h4 {color: #222;margin-top:2px;margin-bottom:2px;font-size: 16px;   font-family:
 
 
 h5 {color: #1F768E;
-    font-size: 21px;
+    font-size: 19px;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 20px;
     text-decoration: none;
     text-shadow: 0 1px 1px #FFFFFF;
@@ -218,11 +218,11 @@ li:hover {border-bottom:0px solid #888; color: #000;}
 .boxmenu > li {border: 1px solid #fff;padding: 10px; }
 li > a:first-child { font-size:15px;text-shadow: 0 0px 0px #7B8284;color: #222;
     font-weight: bold;text-decoration: none;
-    line-height: 20px; text-shadow: 0 1px 1px #fff;color: #1F768E;letter-spacing: 2px;}
+    line-height: 20px; text-shadow: 0 1px 1px #fff;color: #1F768E;letter-spacing: 3px;}
 li > a:first-child:hover { color: #000;}
 
   a {list-style: none;text-decoration: none; }
-.textbox {margin-top:22px;}
+.textbox {margin-top:22px; }
 
 .mask-box {padding:0px;
 background: url(../images/fracture.jpg) ;
